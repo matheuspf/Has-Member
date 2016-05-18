@@ -7,7 +7,7 @@ Checks for existence of members of the given class at compile time.
 Example of use:
 
 
-'''C++11
+'''c++'
 
 #include "HasMember.h"
 
