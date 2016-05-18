@@ -7,8 +7,8 @@ Checks for existence of members of the given class at compile time.
 Example of use:
 
 
-'''c++'
 
+```C++
 #include "HasMember.h"
 
 HAS_VAR(x)              // Creates checker for variable 'x' named 'has_x'
@@ -25,7 +25,7 @@ struct True {};     // Only for simplicity
 struct False {};
 
 
-template <class> struct Print;    // If instantiated, emits a compile time error with the name of the type passed by parameter
+template <class> struct Print;    // If instantiated, emits a compile time error with the name of the type
 
 
 int main ()
@@ -43,5 +43,5 @@ int main ()
 	return 0;
 	
 }
+```
 
-'''
